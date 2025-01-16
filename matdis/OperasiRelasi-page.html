@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap"
+      rel="stylesheet" 
+    />
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="OperasiRelasi.css" />
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">FUNGSI & RELASI</a>
+
+      <div class="navbar-nav">
+        <a href="matdis kelompok 5.html">Home</a>
+        <a href="Kalkulator.html">Kalkulator</a>
+       
+
+        <div class="dropdown">
+          <a href="#" class="dropbtn">Relasi</a>
+          <div class="dropdown-content">
+            <a href="PenyajianRelasi-page.html">Penyajian Relasi</a>
+            <a href="SifatRelasi-page.html">Sifat-Sifat Relasi Biner</a>
+            <a href="OperasiRelasi-page.html">Operasi Relasi</a>
+            <a href="KuisRelasi-page.html">Kuis Relasi</a>
+            <a href="VideoRelasi-page.html">Video Pembelajaran</a>
+            
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <a href="#" class="dropbtn">Fungsi</a>
+          <div class="dropdown-content">
+            <a href="JenisFungsi-page.html">Jenis-Jenis Fungsi</a>
+            <a href="Fungsikhusus-page.html">Fungsi Khusus</a>
+            <a href="KuisFungsi-page.html">Kuis Fungsi</a>
+            <a href="VideoFungsi-page.html">Video Pembelajaran</a>
+           
+          </div>
+        </div>
+      </div>
+
+   
+    </nav>
+
+      <!-- Hero Section -->
+      <section class="hero" id="home">
+        <main class="content">
+          
+        </main>
+      </section>
+    <!-- Navbar end -->
+
+    <!-- Hero Section -->
+   
+
+    <!-- About section -->
+    <section id="about" class="about">
+      <h2>Operasi Relasi</h2>
+      <div class="row">      
+        </div>
+        <div class="content">
+          <h1>1. Gabungan (Union)</h1>
+          <p> Gabungan atau Union adalah operasi yang menggabungkan dua relasi menjadi satu, dengan menyatukan semua pasangan elemen yang ada di kedua relasi tersebut,
+             tanpa ada duplikasi. Secara formal, operasi gabungan pada dua relasi R dan S 
+             pada himpunan yang sama menghasilkan relasi baru R U S, yang merupakan himpunan dari pasangan terurut yang ada di R atau S (atau keduanya)</p>
+            <p>Contoh: </p>
+            <p>Misalkan A= {1,2,3} dan kita memiliki dua relasi R dan S pada A sebagai berikut:</p>
+            <p>Relasi R= {(1,2,3),(2,3)}</p>
+            <p>Relasi S= {(2,3),(3,1)} </p>
+            <p>Operasi relasi gabungan R U S adalah:</p>
+            <p>R U S = {(1,2), (2,3), (3,1)}</p>
+        </div>
+
+       
+        
+
+    </section>
+
+    <section id="about" class="about">
+      <div class="row">      
+        </div>
+        <div class="content">
+          <h1>2. Irisan (Intersection)</h1>
+          <p>Operasi relasi irisan atau intersection adalah operasi yang menghasilkan himpunan yang berisi elemen-elemen yang terdapat pada kedua himpunan yang dioperasikan. Dalam relasi, 
+            operasi irisan ini diterapkan pada dua relasi yang memiliki domain dan kodomain yang sama.</p>
+          <p> Contoh:</p>
+          <p>Misalkan kita memiliki dua relasi:</p>
+          <p>R= {(1,2), (2,3), (3,4)}</p>
+          <p>S= {(2,3), (3,4), (4,5)}</p>
+          <p>Maka irisan R ∩ S adalah pasangan terurut yang ada di kedua relasi, yaitu;</p>
+          <p>R ∩ S = {(2,3), (3,4)}</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="row">
+        <!-- Anda bisa menambahkan konten lain di sini jika diperlukan -->
+      </div>
+      <div class="content">
+        <h1>3. Selisih</h1>
+        <p> Operasi relasi selisih adalah operasi yang digunakan dalam teori himpunan dan teori relasi untuk menggabungkan dua relasi dengan cara menghilangkan pasangan elemen yang ada di dalam relasi pertama namun tidak ada di dalam relasi kedua.</p>
+        <p>Misalkan kita memiliki dua relasi:</p>
+        <p>R = {(1,2), (2,3), (3,4)}</p>
+        <p>S = {(2,3), (4,5)}</p>
+        <p>Operasi relasi selisih R - S akan menghasilkan pasangan-pasangan dari R yang tidak ada dalam S yaitu;</p>
+        <p>R - S = {(1,2), (3,4)}</p>
+        <p>Pasangan (2,3) ada dalam S, jadi pasangan tersebut dihapus, sementara 
+          pasangan (1,2) dan (3,4) tetap ada karena tidak terdapat dalam S
+        </p>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="row">
+      </div>
+      <div class="content">
+        <h1>4. Beda Setangkup / Symmetric Difference </h1>
+        <p> Operasi relasi beda setangkup (kadang disebut juga difference of intersection atau relational difference of intersection) adalah operasi 
+           yang digunakan untuk mencari pasangan-pasangan elemen yang ada dalam satu relasi tetapi tidak ada dalam irisan antara dua relasi.</p>
+        <p>Misalkan kita memiliki dua relasi:</p>
+        <p>R = {(1,2), (2,3), (3,4)}</p>
+        <p>S = {(2,3), (4,5)}</p>
+        <p>Langkah 1: Tentukan irisan R n S:</p>
+        <p>R n S = {(2,3)}</p>
+        <p>Langkah 2: Hapus pasangan-pasangan yang ada dalam R n S dari R: </p>
+        <p>R⊕S - R - (R n S) - {(1,2), (3,4)}</p>
+        <p>Jadi, operasi beda setangkup R ⊕ S menghasilkan:</p>
+        <p>R ⊕ S - {(1,2), (3,4)}</p>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="row">
+      </div>
+      <div class="content">
+        <h1>5. Komposisi Relasi </h1>
+        <p>Komposisi relasi adalah suatu operasi yang menggabungkan dua relasi menjadi satu relasi baru</p>
+        <p>Komposisi relasi mengacu pada proses menghubungkan dua relasi sehingga hasilnya membentuk relasi yang menghubungkan elemen-elemen dari himpunan yang lebih besar.</p>
+        <p>Misalkan kita memiliki dua relasi berikut:</p>
+        <p>Relasi R pada himpunan A = {1,2,3} dan B = {x,y}, dengan pasangan terurut R = {(1,x), (2,y), (3,x)}</p>
+        <p>Relasi S pada himpunan B = {x,y} dan C = {a,b}, dengan pasangan terurut S = {(x,a), (y,b)}</p>
+        <p>Untuk membentuk komposisi relasi R ∘ S, kita akan mencari pasangan (a,c) dimana:
+        <p>Terdapat b ∈ B sedemikian sehingga (a,b) ∈ R dan (b,c) ∈ S </p>
+        <p>Prosesnya sebagai berikut:</p>
+        <p>Untuk a = 1, pasangan (1,x) ∈ R dan (x,a) ∈ S, maka (1,a) ∈ R ∘ S </p>
+        <p>Untuk a = 2, pasangan (2,y) ∈ R dan (y,b) ∈ S, maka (2,b) ∈ R ∘ S</p>
+        <p>Untuk a = 3, pasangan (3,x) ∈ R dan (x,a) ∈ S, maka (3,a) ∈ R ∘ S</p>
+        <p>Jadi, komposisi relasi R ∘ S adalah:</p>
+        <p>R ∘ S = {(1,a), (2,b), (3,a)}</p>
+      </div>
+    </section>
+
+
+    
+    
+    
+
+   
+
+    
+
+      <!-- Baris kedua untuk gambar tambahan -->
+      <div class="row">
+        
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
